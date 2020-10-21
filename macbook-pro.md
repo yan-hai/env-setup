@@ -1,7 +1,7 @@
 ## Macbook Pro Environemnt Setup
 
 ### Homebrew
-Use Homebrew as the package manager
+Use [Homebrew](https://brew.sh/) as the package manager
 ```BASH
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
