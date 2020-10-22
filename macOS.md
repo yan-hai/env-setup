@@ -62,6 +62,7 @@ node -v
 ```
 
 ##### Python 3
+> macOS provides python 2&3 out of box.
 ```BASH
 brew install python@3.7
 
