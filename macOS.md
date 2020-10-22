@@ -73,7 +73,7 @@ python3 --version
 ```
 
 #### Tool
-##### iIterm2
+##### iTerm2
 ```BASH
 brew cask install iterm2
 ```
