@@ -33,12 +33,7 @@ brew --version
 #### Development Environment
 ##### Java
 ```BASH
-brew tap adoptopenjdk/openjdk
-
-brew cask install adoptopenjdk/openjdk/adoptopenjdk8
-# brew cask install adoptopenjdk/openjdk/adoptopenjdk9
-# brew cask install adoptopenjdk/openjdk/adoptopenjdk10
-# brew cask install adoptopenjdk/openjdk/adoptopenjdk11
+brew install openjdk@8
 
 java --version
 ```
