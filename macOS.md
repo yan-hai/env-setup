@@ -49,6 +49,7 @@ brew install git
 
 git --version
 ```
+> Setup ssh key: `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
 
 ##### Gradle
 > Should use gradle wrapper instead for each project
