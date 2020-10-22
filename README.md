@@ -1,4 +1,4 @@
 # Environment Setup Scripts
 
-* [Macbook Pro](macbook-pro.md)
+* [macOS](macOS.md)
 
