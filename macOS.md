@@ -35,10 +35,10 @@ brew --version
 ```BASH
 brew tap adoptopenjdk/openjdk
 
-brew cask install adoptopenjdk8
-# brew cask install adoptopenjdk9
-# brew cask install adoptopenjdk10
-# brew cask install adoptopenjdk11
+brew cask install adoptopenjdk/openjdk/adoptopenjdk8
+# brew cask install adoptopenjdk/openjdk/adoptopenjdk9
+# brew cask install adoptopenjdk/openjdk/adoptopenjdk10
+# brew cask install adoptopenjdk/openjdk/adoptopenjdk11
 
 java --version
 ```
