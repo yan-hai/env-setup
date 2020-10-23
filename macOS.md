@@ -29,6 +29,9 @@ brew --version
   * [IINA](#iina)
   * [Spotify](#spotify)
 
+* Utilities
+  * [Logitech Options](https://support.logi.com/hc/en-au/articles/360025297893)
+
 
 #### Development Environment
 ##### Java
