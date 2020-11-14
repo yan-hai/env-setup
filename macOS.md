@@ -14,6 +14,7 @@ brew --version
   * [Gradle](#gradle)
   * [Node.js](#nodejs)
   * [Python 3](#python-3)
+  * [PostgreSQL](#postgresql)
   
 * Tool
   * [iTerm2](#iterm2)
@@ -71,6 +72,21 @@ brew install python@3.7
 
 python3 --version
 ```
+
+##### PostgreSQL
+```BASH
+brew install postgresql@11
+
+psql --version
+echo 'export PATH="/usr/local/opt/postgresql@11/bin:$PATH"' >> ~/.zshrc
+
+# To have launchd start postgresql@11 now and restart at login:
+brew services start postgresql@11
+
+#Or, if you don't want/need a background service you can just run:
+pg_ctl -D /usr/local/var/postgresql@11 start
+```
+
 
 #### Tool
 ##### iTerm2
