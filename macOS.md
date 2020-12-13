@@ -10,6 +10,7 @@ brew --version
 ### List of Contents
 * Environment
   * [Java](#java)
+  * [Kotlin](#kotlin)
   * [Git](#git)
   * [Gradle](#gradle)
   * [Node.js](#nodejs)
@@ -41,6 +42,13 @@ brew --version
 brew install openjdk@8
 
 java --version
+```
+
+##### Kotlin
+```BASH
+brew install kotlin
+
+kotlin --version
 ```
 
 ##### Git 
