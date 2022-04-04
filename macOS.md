@@ -17,6 +17,7 @@ brew --version
   * [Python 3](#python-3)
   * [PostgreSQL](#postgresql)
   * [Docker](#docker)
+  * [Kafka](#kafka)
   
 * Tool
   * [iTerm2](#iterm2)
@@ -107,6 +108,17 @@ docker version
 
 brew cask install docker-toolbox
 docker-machine --version
+```
+
+##### Kafka
+```BASH
+brew install kafka
+
+# Restart Kafka
+brew services restart kafka
+
+# if you don't want/need a background service you can just run:
+/usr/local/opt/kafka/bin/kafka-server-start /usr/local/etc/kafka/server.properties
 ```
 
 #### Tool
